@@ -2106,7 +2106,6 @@ html[dir=rtl] .description_selector_button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 24px
 }
 
 .ratings_details_wrapper {
@@ -3479,6 +3478,10 @@ N8A3ib .rating-feedback-icon {
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: start;
+    }
+
+    .ratings_inner_wrapper {
+        padding-top: 10px;
     }
 
     .ratings-section-container {
