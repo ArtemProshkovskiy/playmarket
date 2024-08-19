@@ -1546,12 +1546,8 @@ html[dir=rtl] .info_list_block_content:not(:last-child):before {
 
 .description_selector_top_text {
     display: flex;
-    margin-bottom: 20px;
 }
 
-.description_selector_top_text.review {
-    margin-bottom: 0;
-}
 
 .description_selector_top_text h2 {
     -webkit-box-align: center;
@@ -2424,7 +2420,9 @@ html[dir=rtl] .description_selector_button {
         display: block
     }
 
-
+.description_content.new {
+    margin-bottom: 20px;
+}
 }
 
 
@@ -3512,7 +3510,7 @@ N8A3ib .rating-feedback-icon {
         font-size: 12px;
     }
 
-    .description_selector_top {
+    .description_selector_top.review {
         margin-bottom: 0;
     }
 
