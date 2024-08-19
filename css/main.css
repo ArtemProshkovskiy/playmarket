@@ -1526,9 +1526,6 @@ html[dir=rtl] .info_list_block_content:not(:last-child):before {
     width: 100%
 }
 
-.description_selector_header {
-    padding-bottom: 20px
-}
 
 .description_selector_top {
     fill: #202124;
