@@ -34,3 +34,20 @@ document.addEventListener('scroll', function() {
         headerMenu.classList.remove('scrolled');
     }
 });
+
+const modalFooter = document.querySelector('.modal-footer');
+const modalfade = document.querySelector('.modal-image-wrapper');
+if (modalFooter) {
+    modalFooter.addEventListener('scroll', function () {
+
+        if (modalFooter.scrollTop > 0) {
+            if (!modalfade.classList.contains('scrolled')) {
+                modalfade.classList.add('scrolled');
+            }
+        } else {
+            if (modalfade.classList.contains('scrolled')) {
+                modalfade.classList.remove('scrolled');
+            }
+        }
+    });
+}
